@@ -1,0 +1,243 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: rgb(241, 233, 233);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.main-page {
+    width: 100%;
+    background-color: rgb(30, 30, 30);
+    padding: 2px;
+}
+
+.header {
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom: 1.2px solid #f0f8ff;
+}
+
+.webpage-main-name {
+    display: inline;
+    font-size: 35px;
+    text-shadow: 3px 3px 2px black;
+    color: #f0f8ff;
+}
+
+.webpage-main-name:hover {
+    font-size: 38px;
+    text-shadow: 2px 2px 2px rgb(0, 0, 250);
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+.navigation-bar {
+    display: inline;
+    padding-left: 400px;
+}
+
+.nav-bar-items {
+    display: inline;
+}
+
+.nav-bar-item {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #f0f8ff;
+    padding: 5px;
+    font-size: 15px;
+}
+
+.nav-bar-item:hover {
+    border-bottom: 2px solid white;
+    font-size: 18px;
+    transition: 0.5s ease;
+    padding: 6px;
+}
+
+.nav-bar-item:active {
+    border: 2px solid white;
+    border-radius: 10px;
+    transition: 0s ease;
+}
+
+.main-page {
+    text-align: none;
+}
+
+.front-info {
+    background: url(assets/background.jpg) no-repeat;
+    background-size: cover;
+    /* height: 100vh; */
+}
+
+.front-info-heading {
+    padding: 200px 0 200px 200px;
+    font-size: 45px;
+}
+
+.our-services-page,
+.my-portfolio-place,
+.our-team-about-place {
+    text-align: center;
+    padding: 50px;
+}
+
+.services-heading,
+.my-portfolio-heading,
+.our-team-heading {
+    font-size: 35px;
+}
+
+.services-sub-heading-text,
+.portfolio-sub-heading-text,
+.team-about-sub-heading-text {
+    font-size: 13px;
+}
+
+.development-service,
+.design-service,
+.coding-service {
+    font-size: 20px;
+    min-height: 300px;
+    height: auto;
+    width: 200px;
+    background-color: black;
+    border: 2px solid rgba(255, 2, 2, 0.2);
+    color: rgb(125, 41, 202);
+}
+
+.development-service:hover,
+.design-service:hover,
+.coding-service:hover {
+    cursor: pointer;
+    height: auto;
+    width: 300px;
+    border: 2px solid green;
+    box-shadow: 2px 2px 15px green;
+    transition: 0.5s ease;
+}
+
+.services-place {
+    padding-top: 35px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.services-place span {
+    background-color: #000000;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    height: auto;
+}
+
+.dev-icon,
+.design-icon,
+.coding-icon {
+    align-items: center;
+    width: 50px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.dev-about-text,
+.design-about-text,
+.coding-about-text {
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.my-portfolio-images {
+    padding-top: 35px;
+}
+
+.portfolio-image {
+    padding-top: 20px;
+    height: 250px;
+    align-items: center;
+}
+
+.portfolio-image:hover {
+    cursor: pointer;
+    height: 280px;
+    transition: 0.6s ease;
+}
+
+.footer-place {
+    text-align: center;
+    padding: 15px 0 15px 0;
+    background-color: #000000;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    color: #f0f8ff;
+}
+
+.footer-heading {
+    display: grid;
+    padding-bottom: 20px;
+    font-size: 1.7rem;
+}
+
+.footer-heading:hover {
+    cursor: pointer;
+}
+
+.footer-nav-bar-items {
+    padding: 10px 0 30px 0;
+}
+
+.footer-navbar-button {
+    text-transform: capitalize;
+    color: #f0f8ff;
+    padding: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.social-icons-place {
+    text-align: center;
+}
+
+.social-icons-place img {
+    padding: 2px 2px 2px 2px;
+}
+
+.social-icon {
+    text-decoration: none;
+}
+
+.social-icon-image {
+    width: 37px;
+}
+
+.social-icon-image:hover {
+    border: 3px solid green;
+    box-shadow: 1px 1px 10px green;
+    border-radius: 50px 50px 50px 50px;
+    width: 45px;
+    padding: 2px;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+.copyright-a-element {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #f0f8ff;
+    font-size: 15px;
+    font-weight: bold;
+}
